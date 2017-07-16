@@ -8,6 +8,9 @@ default: &default
   adapter: sqlite3
   pool: 5
   timeout: 5000
+  username: ruby_test
+  password:
+
 
 development:
   <<: *default
